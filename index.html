@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarshMx</title>
+    <link rel="stylesheet" href="assests/css/fonts.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-mono">
+    
+    <!-- open modal  -->
+
+    <section class="mt-20 text-center">
+        <div class="container mx-auto">
+            <div>
+                <a href="#" id="openModals" class="capitalize px-4 py-3 rounded-full border-2 border-black text-lg bg-amber-300 hover:bg-amber-400 font-semibold text-white hover:text-black transition-all" >
+                    click here
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class=" reports hidden fixed top-0 right-0 overflow-y-auto max-md:w-full md:w-2/4 md:pl-10 max-md:pl-5 md:pr-10 max-md:pr-5 h-screen" id="report-modals" style="background-image: url(assests/images/Path\ 14781.png);">
+        <div class="close-icon text-black  w-12 h-12 absolute top-5 bg-yellow-300 flex items-center justify-center rounded-full z-20 right-5" id="close-modal">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M18 6l-12 12" />
+                <path d="M6 6l12 12" />
+            </svg>
+        </div>
+       <h4 class="text-white mt-28 text-3xl italic leading-9 md:max-w-sm max-md:max-w-xs"><strong class="text-yellow-300">MORE</strong> INFORMATION</h4>
+       <h5 class=" text-white text-2xl mt-3.5 leading-6">DETAILS</h5>
+       <p class="max-w-xl text-white opacity-80 mt-4 leading-7">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+        sea takimata
+       </p>
+       <h5 class=" text-white text-2xl mt-7 leading-6">SPECS</h5>
+       <ul class="list-disc mt-5 text-white opacity-80 mb-14 max-md:pl-5">
+          <li class="text-white md:max-w-xl ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+          <li class="text-white md:max-w-xl ">nonumy eirmod tempor invidunt ut labore et dolore magna</li>
+          <li class="text-white md:max-w-xl ">erat, sed diam voluptua. At vero eos et accusam et justo duo</li>
+          <li class="text-white md:max-w-xl ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+          <li class="text-white md:max-w-xl ">nonumy eirmod tempor invidunt ut labore et dolore magna</li>
+       </ul>
+       <a href="#" class="px-6 py-5 bg-yellow-300 border-2 border-yellow-300 hover:bg-transparent transition-all hover:text-yellow-300 font-semibold leading-a text-base">GET IN TOUCH</a>
+    </div>
+
+    <section class="mt-24">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 items-center justify-between gap-5">
+                 <div class="bg-gray-300 shadow-2xl">
+                      <div class="flex items-center justify-between pt-4 pb-4 pl-5 pr-5">
+                          <div class="bg-yellow-300 text-black text-sm font-medium pt-1 pb-1 pl-2 pr-2 italic leading-4">
+                            IN STOCK
+                          </div>
+                          <div class="text-white bg-gray-800 w-12 h-12 flex items-center justify-center rounded-full    ">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M18 6l-12 12" />
+                                <path d="M6 6l12 12" />
+                            </svg>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="bg-gray-300 shadow-2xl">
+                    <div class="flex items-center justify-between pt-4 pb-4 pl-5 pr-5">
+                        <div class="bg-yellow-300 text-black text-sm font-medium pt-1 pb-1 pl-2 pr-2 italic leading-4">
+                          IN STOCK
+                        </div>
+                        <div class="text-white bg-gray-800 w-12 h-12 flex items-center justify-center rounded-full    ">
+                          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M18 6l-12 12" />
+                              <path d="M6 6l12 12" />
+                          </svg>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assests/js/main.js" type="text/javascript"></script>
+</body>
+</html>

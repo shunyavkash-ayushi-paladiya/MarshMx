@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Tektur Condensed';
+    src: url('../fonts/TekturCondensed-Black.eot');
+    src: url('../fonts/TekturCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturCondensed-Black.woff2') format('woff2'),
+        url('../fonts/TekturCondensed-Black.woff') format('woff'),
+        url('../fonts/TekturCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur Condensed';
+    src: url('../fonts/TekturCondensed-Bold.eot');
+    src: url('../fonts/TekturCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/TekturCondensed-Bold.woff') format('woff'),
+        url('../fonts/TekturCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur Condensed';
+    src: url('../fonts/TekturCondensed-ExtraBold.eot');
+    src: url('../fonts/TekturCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturCondensed-ExtraBold.woff2') format('woff2'),
+        url('../fonts/TekturCondensed-ExtraBold.woff') format('woff'),
+        url('../fonts/TekturCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur-Bold.eot');
+    src: url('../fonts/Tektur-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur-Bold.woff2') format('woff2'),
+        url('../fonts/Tektur-Bold.woff') format('woff'),
+        url('../fonts/Tektur-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur Condensed';
+    src: url('../fonts/TekturCondensed-SemiBold.eot');
+    src: url('../fonts/TekturCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturCondensed-SemiBold.woff2') format('woff2'),
+        url('../fonts/TekturCondensed-SemiBold.woff') format('woff'),
+        url('../fonts/TekturCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur-Medium.eot');
+    src: url('../fonts/Tektur-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur-Medium.woff2') format('woff2'),
+        url('../fonts/Tektur-Medium.woff') format('woff'),
+        url('../fonts/Tektur-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur-Regular.eot');
+    src: url('../fonts/Tektur-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur-Regular.woff2') format('woff2'),
+        url('../fonts/Tektur-Regular.woff') format('woff'),
+        url('../fonts/Tektur-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur Condensed';
+    src: url('../fonts/TekturCondensed-Regular.eot');
+    src: url('../fonts/TekturCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/TekturCondensed-Regular.woff') format('woff'),
+        url('../fonts/TekturCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur SemiCondensed';
+    src: url('../fonts/TekturSemiCondensed-ExtraBold.eot');
+    src: url('../fonts/TekturSemiCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturSemiCondensed-ExtraBold.woff2') format('woff2'),
+        url('../fonts/TekturSemiCondensed-ExtraBold.woff') format('woff'),
+        url('../fonts/TekturSemiCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur SemiCondensed';
+    src: url('../fonts/TekturSemiCondensed-Regular.eot');
+    src: url('../fonts/TekturSemiCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturSemiCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/TekturSemiCondensed-Regular.woff') format('woff'),
+        url('../fonts/TekturSemiCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur-SemiBold.eot');
+    src: url('../fonts/Tektur-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur-SemiBold.woff2') format('woff2'),
+        url('../fonts/Tektur-SemiBold.woff') format('woff'),
+        url('../fonts/Tektur-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur SemiCondensed';
+    src: url('../fonts/TekturSemiCondensed-Bold.eot');
+    src: url('../fonts/TekturSemiCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturSemiCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/TekturSemiCondensed-Bold.woff') format('woff'),
+        url('../fonts/TekturSemiCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur-Black.eot');
+    src: url('../fonts/Tektur-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur-Black.woff2') format('woff2'),
+        url('../fonts/Tektur-Black.woff') format('woff'),
+        url('../fonts/Tektur-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur SemiCondensed';
+    src: url('../fonts/TekturSemiCondensed-Medium.eot');
+    src: url('../fonts/TekturSemiCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturSemiCondensed-Medium.woff2') format('woff2'),
+        url('../fonts/TekturSemiCondensed-Medium.woff') format('woff'),
+        url('../fonts/TekturSemiCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur SemiCondensed';
+    src: url('../fonts/TekturSemiCondensed-SemiBold.eot');
+    src: url('../fonts/TekturSemiCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturSemiCondensed-SemiBold.woff2') format('woff2'),
+        url('../fonts/TekturSemiCondensed-SemiBold.woff') format('woff'),
+        url('../fonts/TekturSemiCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur-ExtraBold.eot');
+    src: url('../fonts/Tektur-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Tektur-ExtraBold.woff') format('woff'),
+        url('../fonts/Tektur-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur Condensed';
+    src: url('../fonts/TekturCondensed-Medium.eot');
+    src: url('../fonts/TekturCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturCondensed-Medium.woff2') format('woff2'),
+        url('../fonts/TekturCondensed-Medium.woff') format('woff'),
+        url('../fonts/TekturCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur SemiCondensed';
+    src: url('../fonts/TekturSemiCondensed-Black.eot');
+    src: url('../fonts/TekturSemiCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TekturSemiCondensed-Black.woff2') format('woff2'),
+        url('../fonts/TekturSemiCondensed-Black.woff') format('woff'),
+        url('../fonts/TekturSemiCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
