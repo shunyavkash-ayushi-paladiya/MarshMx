@@ -259,14 +259,28 @@
                     I’D LIKE TO KNOW MORE
                   </div>
                   <div class="flex items-center justify-center mt-[30px] gap-[20px]">
-                    <div>
-                        <input type="radio" id="huey" name="drone" value="huey" checked class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"/>
-                        <label for="huey">Fill Out Contact Form</label>
-                      </div>
+                    <div class="space-y-4">
+                        <label class="flex items-center space-x-3 cursor-pointer">
+                          <input type="radio" name="option" value="contact" class="peer hidden">
+                          <div class="w-5 h-5 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:border-[#FFFF37] peer-checked:bg-[#FFFF37]">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-check">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M5 12l5 5l10 -10" />
+                            </svg>
+                          </div>
+                          <span class="text-gray-700">Fill Out Contact Form</span>
+                        </label>
                     
-                      <div>
-                        <input type="radio" id="dewey" name="drone" value="dewey w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" />
-                        <label for="dewey">Value my bike</label>
+                        <label class="flex items-center space-x-3 cursor-pointer">
+                          <input type="radio" name="option" value="valueBike" class="peer hidden">
+                          <div class="w-5 h-5 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:border-[#FFFF37] peer-checked:bg-[#FFFF37]">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-check">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M5 12l5 5l10 -10" />
+                            </svg>
+                          </div>
+                          <span class="text-gray-700">Value my bike</span>
+                        </label>
                       </div>
                   </div>
             </div>
