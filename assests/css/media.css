@@ -1,0 +1,89 @@
+@media screen and (max-width:1024px){
+    .bike-compare-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .reports-content{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:640px){
+    .reports{
+        background-color: rgba(0, 0, 0, 0.885);
+    }
+    .reports-content::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width:575px){
+    .reports-heading{
+        max-width: 330px;
+        font-size: 26px;
+        line-height: 43px;
+    }
+    .reports-content {
+        padding-top: 179px;
+        padding-left: 36px;
+        padding-right: 48px;
+    }
+    .lorem-para{
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 342px;
+        display: -webkit-box;
+       -webkit-box-orient: vertical;
+       -webkit-line-clamp: 5;
+         overflow: hidden;
+    }
+    .reports-para{
+        font-size: 20px;
+    }
+    .reports-unorderlist li{
+        font-size: 16px;
+        max-width: 340px;
+    }
+    .bike-compare-head{
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 124px;
+    }
+    .bike-compare-price{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .bike-list-first{
+        font-size: 20px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+    .bike-compare-left{
+        padding: 15px;
+    }
+    .bike-list-second{
+        padding-left: 10px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .bike-list-anchor{
+        padding: 27px 66px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    
+    .bike-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .bike-list-second{
+        padding-block: 10px;
+    }
+    .bike-list-first{
+        padding-block: 10px;
+    }
+}
