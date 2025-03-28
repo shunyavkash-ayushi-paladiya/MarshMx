@@ -42,3 +42,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("contact-form");
+    const valueBikeForm = document.getElementById("value-bike-form");
+
+    document.getElementById("contact-form-tab").addEventListener("change", function () {
+        contactForm.style.display = "block";
+        valueBikeForm.style.display = "none";
+    });
+
+    document.getElementById("value-bike-tab").addEventListener("change", function () {
+        contactForm.style.display = "none";
+        valueBikeForm.style.display = "block";
+    });
+});

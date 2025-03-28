@@ -72,6 +72,58 @@
     .bike-list-anchor{
         padding: 27px 66px;
     }
+    .modals{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .modal-contents{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 200px;
+        overflow-y: auto;
+    }
+    .modal-contents-head{
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .modal-inputs label {
+        font-size: 12px;
+    }
+    .dropdown{
+        width: 100%;
+    }
+    .col-2{
+        display: inline;
+    }
+    .form-sug{
+        text-align: center;
+    }
+    .form-submit {
+        padding: 27px 65px;
+    }
+    .checkbox-sec label {
+        font-size: 11px;
+    }
+    .bike-inputs{
+        flex-direction: column;
+    }
+    .dropdowns{
+        padding-block: 7px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .upload-images{
+        flex-direction: column;
+        margin-top: 20px;   
+    }
+    .upload-image{
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:375px) {

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marsh Mx</title>
     <link rel="stylesheet" href="assests/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -121,9 +122,9 @@
                         GET IN TOUCH
                     </a>
                 </div>
-                <div class="bike-list-anchor">
+                <a href="#" class="bike-list-anchor">
                     ADD TO BASKET
-                </div>
+                </a>
                 </div>
                 <div class="bike-compare-left">
                     <div class="bike-compare-sticker">
@@ -187,9 +188,9 @@
                         GET IN TOUCH
                     </a>
                 </div>
-                <div class="bike-list-anchor">
+                <a href="#" class="bike-list-anchor">
                     ADD TO BASKET
-                </div>
+                </a>
                 </div>
             </div>
         </div>
@@ -219,59 +220,287 @@
             </h4>
             <div class="modal-inputs">
                 <div class="modal-first">
-                    <input type="radio" id="huey" name="drone" value="huey" checked />
-                    <label for="huey">Fill Out Contact Form</label>
-                  </div>
-                
-                  <div class="modal-second">
-                    <input type="radio" id="dewey" name="drone" value="dewey" />
-                    <label for="dewey">Value my bike</label>
-                  </div>
+                    <input type="radio" id="contact-form-tab" name="form-toggle" value="contact" checked />
+                    <label for="contact-form-tab">Fill Out Contact Form</label>
+                </div>
+            
+                <div class="modal-second">
+                    <input type="radio" id="value-bike-tab" name="form-toggle" value="value-bike" />
+                    <label for="value-bike-tab">Value my bike</label>
+                </div>
             </div>
-            <form class="form-section">
+            
+            <!-- Contact Form -->
+            <form class="form-section" id="contact-form">
                 <div class="col-3">
-                    <input class="effect-3" type="text" placeholder="Your Name… " required>
-                      <span class="focus-border"></span>
-                  </div>   
-                  <div class="col-3">
-                    <input class="effect-3" type="email" placeholder="Your Email… " required>
-                      <span class="focus-border"></span>
-                  </div>  
-                  <div class="col-3">
-                    <input class="effect-3" type="tel" placeholder="Your Number… " required>
-                      <span class="focus-border"></span>
-                  </div> 
-                  <div class="col-2">
-                    <select class="dropdown  " id="date" required>
+                    <input class="effect-3" type="text" placeholder="Your Name…" required>
+                    <span class="focus-border"></span>
+                </div>   
+                <div class="col-3">
+                    <input class="effect-3" type="email" placeholder="Your Email…" required>
+                    <span class="focus-border"></span>
+                </div>  
+                <div class="col-3">
+                    <input class="effect-3" type="tel" placeholder="Your Number…" required>
+                    <span class="focus-border"></span>
+                </div> 
+                <div class="col-2">
+                    <select class="dropdown" id="date" required>
                         <option value="" disabled selected>Desired Date...</option>
                         <option value="2025-03-27">March 27, 2025</option>
                         <option value="2025-03-28">March 28, 2025</option>
                         <option value="2025-03-29">March 29, 2025</option>
                     </select>
-                      <span class="focus-border"></span>
-                  
-                    <select class="dropdown " id="time" required>
+                    <span class="focus-border"></span>
+            
+                    <select class="dropdown" id="time" required>
                         <option value="" disabled selected>Desired Time...</option>
                         <option value="08:00">08:00 AM</option>
                         <option value="12:00">12:00 PM</option>
                         <option value="18:00">06:00 PM</option>
                     </select>
-                      <span class="focus-border"></span>
+                    <span class="focus-border"></span>
+                </div> 
+                <p class="form-sug">* The time & date is not completely guaranteed.</p>
+                <button type="submit" class="form-submit">SUBMIT FORM</button>
+                <div class="checkbox-sec">
+                    <input type="checkbox" id="checkbox" required>
+                    <label for="checkbox">Please select, to subscribe to our newsletters</label>
+                </div>
+            </form>
+            <form class="value-bike" id="value-bike-form" style="display: none;">
+                <div class="bike-inputs">
+                    <div class="col-4">
+                        <input class="effect-3" type="text" placeholder="Model Name…" required>
+                    </div>  
+                    <select class="dropdown dropdowns" id="date" required>
+                        <option value="" disabled selected>Year…</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                    </select>
+                    <div class="col-4">
+                        <input class="effect-3" type="text" placeholder="Mileage…" required>
+                    </div>  
+                </div>
+        
+                <div class="upload-images">
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Image of the front</div>
+                        </div>            
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                            
+                    </div>
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Image of the rear</div>
+                        </div>   
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                                     
                     </div> 
-                    <p class="form-sug">
-                        * The time & date is not completely guaranteed.
-                    </p>
-                    <button type="submit" class="form-submit" required>
-                        SUBMIT FORM
-                    </button>
-                   <div class="checkbox-sec">
-                     <input type="checkbox" id="checkbox" required>
-                     <label for="checkbox">Please select, to subscribe to our newsletters</label>
-                   </div>
+                </div>
+        
+                <div class="upload-images">
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Image of the right-side</div>
+                        </div>   
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                                     
+                    </div> 
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Image of the left-side</div>
+                        </div>   
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                                     
+                    </div> 
+                </div>
+        
+                <div class="upload-images">
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Image of the engine</div>
+                        </div>  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                                      
+                    </div> 
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Image of the hour meter</div>
+                        </div>   
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                                     
+                    </div> 
+                </div>
+
+
+                <div class="upload-image">
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Service History & Logbook</div>
+                        </div>  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                                      
+                    </div> 
+                    <div class="file-upload">
+                        <input class="effect-3 file-input" type="file" required>
+                        <div class="file-texts">
+                            <div class="file-text">Outstanding Finance…</div>
+                        </div>   
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.371" height="16.375" viewBox="0 0 16.371 16.375">
+                            <g id="noun-upload-4855248" transform="translate(-122.5 -52.398)">
+                              <path id="Path_12832" data-name="Path 12832" d="M136.982,296.621H124.389a1.889,1.889,0,0,1-1.889-1.889V289.38a.63.63,0,1,1,1.259,0v5.352a.63.63,0,0,0,.63.63h12.593a.63.63,0,0,0,.63-.63V289.38a.63.63,0,1,1,1.259,0v5.352a1.889,1.889,0,0,1-1.889,1.889Z" transform="translate(0 -227.848)" fill="#bcbcbc"/>
+                              <path id="Path_12833" data-name="Path 12833" d="M251.857,56.809a.63.63,0,0,1-.447-.183l-2.7-2.708-2.7,2.708a.632.632,0,0,1-.894-.894l3.148-3.148a.63.63,0,0,1,.894,0l3.148,3.148a.63.63,0,0,1-.447,1.077Z" transform="translate(-118.023)" fill="#bcbcbc"/>
+                              <path id="Path_12834" data-name="Path 12834" d="M333.13,73.844a.63.63,0,0,1-.63-.63V61.88a.63.63,0,0,1,1.259,0V73.214a.63.63,0,0,1-.63.63Z" transform="translate(-202.444 -8.534)" fill="#bcbcbc"/>
+                            </g>
+                          </svg>                                     
+                    </div> 
+                </div>
+
+                <select class="dropdown dropdowns dropdown-select" id="date" required>
+                    <option value="" disabled selected>Desired price</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                </select>
+                
+                <button type="submit" class="form-submit">VALUE MY BIKE</button>
+                
+                <div class="checkbox-sec">
+                    <input type="checkbox" id="checkboxs" required>
+                    <label for="checkboxs">Please select, to subscribe to our newsletters</label>
+                </div>            
             </form>
         </div>
     </div>
 
+        <!-- reserve section  -->
+
+        <section class="reserve">
+            <div class="container">
+                <div class="reserve-inner">
+                    <div class="reserve-left-section">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                              </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+                          <div thumbsSlider="" class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
     <script src="assests/js/main.js"></script>
 </body>

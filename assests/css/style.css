@@ -19,6 +19,10 @@ body {
     overflow-x: hidden;
 } 
 
+button{
+    cursor: pointer;
+}
+
 a {
     cursor: pointer;
     text-decoration: none;
@@ -349,6 +353,7 @@ img {
     transition:all 0.3s ease;
     border: 2px solid var(--primary);
     white-space: nowrap;
+    width: 100%;
 }
 
 .bike-list-anchor:hover{
@@ -401,7 +406,7 @@ img {
     padding-bottom: 80px;
     padding-left: 60px;
     padding-right: 60px;
-    width: 560px;
+    width: 815px;
     text-align: center;
     position: relative;
 }
@@ -597,6 +602,7 @@ input[type="tel"]::placeholder{
     border: 2px solid var(--primary);
     margin-top: 20px;
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .form-submit:hover{
@@ -648,4 +654,93 @@ input[type="tel"]::placeholder{
     border-color: var(--secondary);
     background-color: var(--secondary);
     box-shadow: inset 0 0 0 2px white; 
+}
+
+.bike-inputs{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.dropdowns{
+    padding: 12px 0;
+    display: block;
+}
+
+.upload-images{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.file-upload {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    opacity: 0; 
+    position: absolute;
+    cursor: pointer;
+}
+
+.file-texts{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload-image{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.file-text{
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+.col-4{
+    float: left; 
+    width: 100%; 
+    margin: 20px 0% 10px; 
+    position: relative;
+}
+
+.dropdown-select{
+    margin-top: 20px;
+}
+
+.reserve{
+    position: relative;
+    margin-top: 100px;
+}
+
+.reserve::after{
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color:var(--forth);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    clip-path: polygon(71% 0, 100% 0%, 100% 100%, 18% 100%);
+    transition: all 0.3s ease;
+    opacity: 80%;
 }
