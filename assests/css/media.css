@@ -1,82 +1,105 @@
-@media screen and (max-width:1024px){
-    .bike-compare-inner{
+@media screen and (max-width:1024px) {
+    .bike-compare-inner {
         flex-direction: column;
         align-items: center;
     }
 }
+
 @media screen and (max-width:768px) {
-    .reports-content{
+    .reports-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .reserve-inner {
+        flex-direction: column;
+    }
+
+    .cart-content {
         width: 100%;
         max-width: 100%;
     }
 }
 
-@media screen and (max-width:640px){
-    .reports{
+@media screen and (max-width:640px) {
+    .reports {
         background-color: rgba(0, 0, 0, 0.885);
     }
-    .reports-content::after{
+
+    .reports-content::after {
         display: none;
     }
 }
 
-@media screen and (max-width:575px){
-    .reports-heading{
+@media screen and (max-width:575px) {
+    .reports-heading {
         max-width: 330px;
         font-size: 26px;
         line-height: 43px;
     }
+
     .reports-content {
         padding-top: 179px;
         padding-left: 36px;
         padding-right: 48px;
     }
-    .lorem-para{
+
+    .lorem-para {
         font-size: 16px;
         line-height: 28px;
         max-width: 342px;
         display: -webkit-box;
-       -webkit-box-orient: vertical;
-       -webkit-line-clamp: 5;
-         overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
     }
-    .reports-para{
+
+    .reports-para {
         font-size: 20px;
     }
-    .reports-unorderlist li{
+
+    .reports-unorderlist li {
         font-size: 16px;
         max-width: 340px;
     }
-    .bike-compare-head{
+
+    .bike-compare-head {
         font-size: 20px;
         line-height: 24px;
         max-width: 124px;
     }
-    .bike-compare-price{
+
+    .bike-compare-price {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .bike-list-first{
+
+    .bike-list-first {
         font-size: 20px;
         line-height: 20px;
         padding-left: 10px;
     }
-    .bike-compare-left{
+
+    .bike-compare-left {
         padding: 15px;
     }
-    .bike-list-second{
+
+    .bike-list-second {
         padding-left: 10px;
         font-size: 16px;
         line-height: 28px;
     }
-    .bike-list-anchor{
+
+    .bike-list-anchor {
         padding: 27px 66px;
     }
-    .modals{
+
+    .modals {
         padding-left: 0;
         padding-right: 0;
     }
-    .modal-contents{
+
+    .modal-contents {
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -86,56 +109,114 @@
         padding-top: 200px;
         overflow-y: auto;
     }
-    .modal-contents-head{
+
+    .modal-contents-head {
         font-size: 24px;
         line-height: 45px;
     }
+
     .modal-inputs label {
         font-size: 12px;
     }
-    .dropdown{
+
+    .dropdown {
         width: 100%;
     }
-    .col-2{
+
+    .col-2 {
         display: inline;
     }
-    .form-sug{
+
+    .form-sug {
         text-align: center;
     }
+
     .form-submit {
         padding: 27px 65px;
     }
+
     .checkbox-sec label {
         font-size: 11px;
     }
-    .bike-inputs{
+
+    .bike-inputs {
         flex-direction: column;
     }
-    .dropdowns{
+
+    .dropdowns {
         padding-block: 7px;
         padding-left: 0;
         padding-right: 0;
     }
-    .upload-images{
-        flex-direction: column;
-        margin-top: 20px;   
-    }
-    .upload-image{
+
+    .upload-images {
         flex-direction: column;
         margin-top: 20px;
     }
+
+    .upload-image {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .reserve-right-head {
+        flex-direction: column;
+        width: 278px;
+        align-items: flex-start;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .reserve-right-desc strong {
+        font-size: 22px;
+    }
+
+    .signup {
+        padding: 27px 50px;
+    }
+
+    .reserve-anchor {
+        padding: 27px 36px;
+    }
+
+    .cart-head {
+        font-size: 25px;
+    }
+
+    .cart-content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .product-a{
+        padding: 27px 70px;
+    }
+
+    .subtotal-a{
+        padding: 22px 92px;
+    }
+
+    .view-a{
+        padding: 22px 92px;
+    }
+
+    .continue-a{
+        padding: 22px 39px;
+    }
 }
 
-@media screen and (max-width:375px) {
-    
-    .bike-list{
-        display: flex;
-        flex-direction: column;
+    @media screen and (max-width:375px) {
+
+        .bike-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bike-list-second {
+            padding-block: 10px;
+        }
+
+        .bike-list-first {
+            padding-block: 10px;
+        }
     }
-    .bike-list-second{
-        padding-block: 10px;
-    }
-    .bike-list-first{
-        padding-block: 10px;
-    }
-}

@@ -56,3 +56,56 @@ document.addEventListener("DOMContentLoaded", function () {
         valueBikeForm.style.display = "block";
     });
 });
+
+
+const dropdowns = document.querySelectorAll(".select-dropdowns");
+
+dropdowns.forEach((dropdown) => {
+  const select = document.querySelector(".select");
+  const caret = document.querySelector(".caret");
+  const menu = document.querySelector(".menu");
+  const options = document.querySelectorAll(".menu li");
+  const selected = document.querySelector(".selected");
+  select.addEventListener("click", () => {
+    caret.classList.toggle("caret-rotate");
+    menu.classList.toggle("menu-open");
+  });
+
+  options.forEach((option) => {
+    option.addEventListener("click", () => {
+      selected.classList.remove("placeholder");
+      selected.innerText = option.innerText;
+      caret.classList.remove("caret-rotate");
+      menu.classList.remove("menu-open");
+      options.forEach((option) => option.classList.remove("active"));
+      option.classList.add("active");
+    });
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const openReportsBtn = document.getElementById("open-Modals");
+    const reportModal = document.getElementById("cart-modals");
+    const closeReportsBtn = document.querySelector(".cart-close-icon");
+    const body = document.body;
+
+    if (openReportsBtn && reportModal && closeReportsBtn) {
+        openReportsBtn.addEventListener("click", function () {
+            reportModal.classList.add("show");
+            body.style.overflow = "hidden";
+        });
+
+        closeReportsBtn.addEventListener("click", function () {
+            reportModal.classList.remove("show");
+            body.style.overflow = "auto";
+        });
+
+        reportModal.addEventListener("click", function (e) {
+            if (e.target === reportModal) {
+                reportModal.classList.remove("show");
+                body.style.overflow = "auto";
+            }
+        });
+    }
+});
