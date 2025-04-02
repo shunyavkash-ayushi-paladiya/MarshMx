@@ -183,40 +183,40 @@
         font-size: 25px;
     }
 
-    .cart-content{
+    .cart-content {
         padding-left: 30px;
         padding-right: 30px;
     }
 
-    .product-a{
+    .product-a {
         padding: 27px 70px;
     }
 
-    .subtotal-a{
+    .subtotal-a {
         padding: 22px 92px;
     }
 
-    .view-a{
+    .view-a {
         padding: 22px 92px;
     }
 
-    .continue-a{
+    .continue-a {
         padding: 22px 39px;
     }
 }
 
-    @media screen and (max-width:375px) {
+@media screen and (max-width:375px) {
 
-        .bike-list {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .bike-list-second {
-            padding-block: 10px;
-        }
-
-        .bike-list-first {
-            padding-block: 10px;
-        }
+    .bike-list {
+        display: flex;
+        flex-direction: column;
     }
+
+    .bike-list-second {
+        padding-block: 10px;
+    }
+
+    .bike-list-first {
+        padding-block: 10px;
+    }
+}

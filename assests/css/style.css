@@ -1276,7 +1276,7 @@ input[type="tel"]::placeholder {
     border: 2px solid var(--secondary);
 }
 
-.product{
+.product {
     background-image: url(../images/oh-well-morning-cream-routine-is-a-must.png);
     background-position: center;
     background-size: cover;
@@ -1289,7 +1289,7 @@ input[type="tel"]::placeholder {
     position: relative;
 }
 
-.product::after{
+.product::after {
     content: "";
     top: 0;
     left: 0;
@@ -1300,14 +1300,14 @@ input[type="tel"]::placeholder {
     opacity: 15%;
 }
 
-.product-title{
+.product-title {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
     color: var(--forth);
 }
 
-.product-a{
+.product-a {
     font-size: 14px;
     font-weight: 700;
     color: var(--secondary);
@@ -1318,12 +1318,12 @@ input[type="tel"]::placeholder {
     transition: all 0.3s ease-in-out;
 }
 
-.product-a:hover{
+.product-a:hover {
     background-color: transparent;
     border: 2px solid var(--secondary);
 }
 
-.product-detail{
+.product-detail {
     position: relative;
     z-index: 1;
     padding: 77px 42px;
