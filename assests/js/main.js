@@ -1,4 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".privacy-left-a");
+
+    links.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("href").substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+
+                document.querySelectorAll(".privacy-left-a").forEach(anchor => {
+                    anchor.classList.remove("active-link");
+                });
+
+                this.classList.add("active-link");
+            }
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
     const openReportsBtn = document.getElementById("openModals");
     const reportModal = document.getElementById("report-modals");
     const closeReportsBtn = document.querySelector(".close-icon");
@@ -109,3 +132,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
