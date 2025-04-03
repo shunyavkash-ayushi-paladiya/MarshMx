@@ -21,10 +21,6 @@
         max-width: 100%;
     }
 
-    .privacy-sec::after {
-        height: 730px;
-    }
-
     .privacy-inner {
         flex-direction: column;
     }
