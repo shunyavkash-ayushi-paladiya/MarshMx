@@ -38,7 +38,7 @@
         background-color: #EBEBEB;
         width: calc(100% + 40px);
         margin-left: -20px;
-        max-width: -webkit-fill-available;
+        max-width: none;
     }
 
     .privacy-right {

@@ -16,7 +16,7 @@
     <div class="container">
       <div class="privacy-inner">
         <div class="privacy-left">
-          <a href="#privacy" class="privacy-left-a">PRIVACY POLICY</a>
+          <a href="#privacy" class="privacy-left-a active-link">PRIVACY POLICY</a>
           <a href="#terms" class="privacy-left-a">TERMS & CONDITIONS</a>
           <a href="#return" class="privacy-left-a">RETURNS POLICY</a>
           <a href="#special" class="privacy-left-a">SPECIAL ORDER TERMS & CONDITIONS</a>
@@ -200,7 +200,7 @@
           <div class="bike-specifier">
             <strong>BIKE </strong>SPECIFICS
           </div>
-          <table class="bike-table">
+          <table class="bike-table" cellspacing="0">
             <tr class="bike-list">
               <td class="bike-list-first">TRANSMISSION</td>
               <td class="bike-list-second">5-speed</td>
@@ -235,9 +235,9 @@
               GET IN TOUCH
             </a>
           </div>
-          <a href="#" class="bike-list-anchor">
+          <button type="button" class="bike-list-anchor">
             ADD TO BASKET
-          </a>
+          </button>
         </div>
         <div class="bike-compare-left">
           <div class="bike-compare-sticker">
@@ -268,7 +268,7 @@
           <div class="bike-specifier">
             <strong>BIKE </strong>SPECIFICS
           </div>
-          <table class="bike-table">
+          <table class="bike-table" cellspacing="0">
             <tr class="bike-list">
               <td class="bike-list-first">TRANSMISSION</td>
               <td class="bike-list-second">5-speed</td>
@@ -303,9 +303,9 @@
               GET IN TOUCH
             </a>
           </div>
-          <a href="#" class="bike-list-anchor">
+          <button class="bike-list-anchor">
             ADD TO BASKET
-          </a>
+          </button>
         </div>
       </div>
     </div>
@@ -632,18 +632,14 @@
           <p class="reserve-right-desc">
             <strong>RRP: £8,749.00</strong> <span> or </span> <strong>£599.99</strong>
           </p>
-          <div class='select-dropdowns'>
-            <div class='label'></div>
-            <div class='select'>
-              <div class='selected placeholder'> <span> SELECTION </span> [OUT OF STOCK]</div>
-              <div class='caret'></div>
-            </div>
-            <ul class='menu'>
-              <li>option 1</li>
-              <li>option 2</li>
-              <li>option 3</li>
-              <li>option 4</li>
-            </ul>
+          <div class="select-dropdown">
+            <select id="dropdown" class="custom-select">
+              <option disabled selected>SELECTION [OUT OF STOCK]</option>
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+              <option value="option4">Option 4</option>
+            </select>
           </div>
           <a href="#" class="signup">
             SIGN UP TO BE NOTIFIED
@@ -732,7 +728,8 @@
         </h4>
       </div>
       <div class="add-inputs">
-      <input type="text" placeholder="Add promo code?">
+        <input type="text" placeholder="Add promo code?">
+        Add promo code?
       </div>
       <a href="#" class="subtotal-a">
         ADD CODE
