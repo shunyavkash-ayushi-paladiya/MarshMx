@@ -23,7 +23,7 @@ button {
     cursor: pointer;
 }
 
-p{
+p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -61,7 +61,7 @@ img {
 
 .privacy-sec::after {
     content: '';
-    position:fixed;
+    position: fixed;
     left: 0%;
     top: 0%;
     background-color: var(--forth);
@@ -144,7 +144,7 @@ img {
     margin-top: 87px;
 }
 
-.terms-head{
+.terms-head {
     font-size: 30px;
     line-height: 36px;
     font-weight: 500;
@@ -152,11 +152,11 @@ img {
     color: var(--secondary);
 }
 
-.terms-head strong{
+.terms-head strong {
     font-weight: 800;
 }
 
-.terms-desc{
+.terms-desc {
     font-size: 14px;
     font-weight: 500;
     color: #707070;
@@ -165,15 +165,15 @@ img {
     margin-top: 38px;
 }
 
-.return-sec{
+.return-sec {
     margin-top: 87px;
 }
 
-.special-sec{
+.special-sec {
     margin-top: 87px;
 }
 
-.spacial-head{
+.spacial-head {
     font-size: 20px;
     font-weight: 500;
     font-style: italic;
@@ -181,11 +181,11 @@ img {
     opacity: 75%;
 }
 
-.spacial-head strong{
-   font-weight: 800;
+.spacial-head strong {
+    font-weight: 800;
 }
 
-.special-desc{
+.special-desc {
     font-size: 12px;
     font-weight: 500;
     color: #707070;
@@ -194,7 +194,7 @@ img {
     margin-top: 38px;
 }
 
-.conditions-desc{
+.conditions-desc {
     font-size: 12px;
     font-weight: 500;
     color: #707070;
@@ -204,7 +204,7 @@ img {
     padding-bottom: 80px;
 }
 
-.conditions-sec{
+.conditions-sec {
     margin-top: 87px;
 }
 
@@ -1058,6 +1058,7 @@ input[type="tel"]::placeholder {
         padding: 25px 20px;
         align-items: center;
         justify-content: space-between;
+        color: var(--secondary);
 
         .selected {
             overflow: hidden;
@@ -1092,12 +1093,16 @@ input[type="tel"]::placeholder {
 
     .menu {
         visibility: hidden;
-        background-color: var(--secondary);
+        background-color: var(--forth);
+        color: var(--secondary);
         border-radius: 5px;
         overflow: hidden;
         position: absolute;
         width: 100%;
-        top: 87%;
+        top: 116%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 3px solid #00000054;
         opacity: 0;
         transition: visibility 0s, opacity 0.3s;
         z-index: 1;
@@ -1107,7 +1112,8 @@ input[type="tel"]::placeholder {
             padding: 10px;
 
             &:hover {
-                background-color: var(--secondary);
+                background-color: var(--fifth);
+                color: var(--forth);
             }
         }
     }
@@ -1123,7 +1129,7 @@ input[type="tel"]::placeholder {
 }
 
 .active {
-    background-color: var(--secondary);
+    background-color: var(--forth);
 }
 
 .signup {
@@ -1490,4 +1496,22 @@ input[type="tel"]::placeholder {
     position: relative;
     z-index: 1;
     padding: 77px 42px;
+}
+
+.add-inputs input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--forth);
+    color: rgba(0, 0, 0, 0.454);
+}
+
+.add-inputs input::placeholder {
+    color: rgba(0, 0, 0, 0.454);
+}
+
+.add-inputs {
+    margin-top: 22px;
 }
