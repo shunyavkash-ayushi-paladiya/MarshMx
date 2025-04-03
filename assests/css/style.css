@@ -61,7 +61,7 @@ img {
 
 .privacy-sec::after {
     content: '';
-    position: absolute;
+    position:fixed;
     left: 0%;
     top: 0%;
     background-color: var(--forth);
@@ -192,6 +192,16 @@ img {
     line-height: 26px;
     max-width: 832px;
     margin-top: 38px;
+}
+
+.conditions-desc{
+    font-size: 12px;
+    font-weight: 500;
+    color: #707070;
+    line-height: 26px;
+    max-width: 832px;
+    margin-top: 38px;
+    padding-bottom: 80px;
 }
 
 .conditions-sec{

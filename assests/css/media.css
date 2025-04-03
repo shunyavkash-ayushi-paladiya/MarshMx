@@ -25,6 +25,10 @@
         flex-direction: column;
     }
 
+    .privacy-sec::after {
+        clip-path: polygon(65% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
     .privacy-left {
         flex-direction: row;
         position: static;
@@ -72,11 +76,6 @@
     .line-clamp14 {
         -webkit-line-clamp: 14;
         line-clamp: 14;
-    }
-
-    .privacy-sec::after {
-        height: 530px;
-        clip-path: polygon(65% 0, 100% 0%, 100% 100%, -5% 100%);
     }
 
     .terms-sec {
